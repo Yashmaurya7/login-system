@@ -11,7 +11,9 @@ const nextConfig: NextConfig = {
         pathname: '*',
         search: '',
       },
+      
     ],
+    domains: ['sdjfhsodfsjdfs'],
   },
 };
 

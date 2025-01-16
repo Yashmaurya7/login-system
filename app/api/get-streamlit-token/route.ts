@@ -25,6 +25,6 @@ export async function GET() {
   );
 
   // 3) Redirect to your Streamlit app
-  const streamlitUrl = `http://localhost:8502/?token=${token}`;
+  const streamlitUrl = `http://localhost:8501/?token=${token}`;
   return NextResponse.redirect(streamlitUrl, 307);
 }
